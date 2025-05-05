@@ -1,0 +1,10 @@
+[
+    {
+        "Aktifitas": "deploy postgresql",
+        "Waktu": "2025-05-05 14:41:33"
+    },
+    {
+        "Aktifitas": "setup emqx",
+        "Waktu": "2025-05-05 14:42:07"
+    }
+]

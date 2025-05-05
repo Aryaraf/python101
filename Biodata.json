@@ -1,0 +1,42 @@
+[
+    {
+        "Nama": "Slamet",
+        "Umur": "50",
+        "Alamat": "Surabaya"
+    },
+    {
+        "Nama": "Badru",
+        "Umur": "30",
+        "Alamat": "Bandung"
+    },
+    {
+        "Nama": "Arya",
+        "Umur": "20",
+        "Alamat": "Banjaran"
+    },
+    {
+        "Nama": "Jaja",
+        "Umur": "30",
+        "Alamat": "Cihamerang"
+    },
+    {
+        "Nama": "Dani",
+        "Umur": "21",
+        "Alamat": "Pangalengan"
+    },
+    {
+        "Nama": "Jamet",
+        "Umur": "50",
+        "Alamat": "Venus"
+    },
+    {
+        "Nama": "Jamal",
+        "Umur": "30",
+        "Alamat": "Ciumbuleuit"
+    },
+    {
+        "Nama": "Denis",
+        "Umur": "5",
+        "Alamat": "Adit Sport"
+    }
+]
