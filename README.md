@@ -45,7 +45,7 @@ python101/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/python101.git
+   git clone https://github.com/Aryaraf/python101.git
    cd python101
    ```
 
