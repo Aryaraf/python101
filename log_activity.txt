@@ -1,0 +1,21 @@
+
+Command: ['ls'] 
+Date: 2025-05-06  
+Output: Biodata.json
+biodata.txt
+Command-Line-Automation
+for-loop.py
+function-params.py
+function-value.py
+hello.py
+if-else.py
+log_2025-05-05.json
+log_2025-05-06.json
+log_activitiy.json
+README.md
+week-1
+while-loop.py
+
+Command: ['docker', 'ps'] 
+Date: 2025-05-06  
+Output: CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
