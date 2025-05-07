@@ -21,5 +21,16 @@ while True:
     if loop.lower() != "y":
         break
     
-        
-    
+
+# Examples of basic commands you can try:
+# - pwd                   Displays the current directory.
+# - ls                    Displays a list of files and directories in a given directory.
+# - whoami                Displays the name of the currently active user.
+# - date                  Displays the current date and time
+# - df -h                 Displays disk usage (in easy-to-read format)
+# - ps aux                Displays running processes
+# - uptime                Displays the system's active time and system load.
+# - free -h               Displays RAM usage
+# - top -n 1              Show processes and resources, single run (not live)
+# - ping google.com -c 4  Ping to server to check network connection
+# - cat filename.txt      Displays the contents of the file
