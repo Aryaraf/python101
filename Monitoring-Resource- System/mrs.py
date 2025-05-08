@@ -3,8 +3,8 @@ import time
 import requests
 from datetime import datetime
 
-API_ID = "8110307750:AAFMazaZ_UQLgMMa2TnGT0C14fkaplSDzj8"
-ID_CLIENT = 6252040922
+API_ID = "YOUR_API_TOKEN"
+ID_CLIENT = "YOUR_ID_CLIENT"
 url = f"https://api.telegram.org/bot{API_ID}/sendMessage"
 
 while True:
