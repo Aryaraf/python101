@@ -1,7 +1,12 @@
 import os
 import psutil
+import requests
 from rich.table import Table
 from rich.console import Console
+
+API_ID = "YOUR API TOKEN"
+ID_CLIENT = "YOUR ID CLIENT"
+url =  f"https://api.telegram.org/bot{API_ID}/sendMessage"
 
 console = Console()
 
@@ -29,6 +34,10 @@ while True:
     
     if cpu >80:
         table.columns[1].style = "bold red"
+        requests.post(url, data={
+            "chat_id": ID_CLIENT,
+            "text": f"CPU Alert! usage: {cpu}% is higher than 80% at"
+        })
         
     console.print(table)
     
