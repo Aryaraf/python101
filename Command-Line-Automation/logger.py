@@ -15,7 +15,12 @@ while True:
     
     total = (f"[{time}] INFO - CPU usage: {cpu}% RAM usage: {ram}% DISK usage: {disk}%")
     
+    if cpu > 80:
+        total = (f"[{time}] WARNING - CPU usage: {cpu}%")
+        with open ("logger.log", "a") as f:
+            f.write(total + "\n")
+    
     with open ("logger.log", "a") as f:
-        f.write(total)
+        f.write(total + "\n")
         
     print(total)
