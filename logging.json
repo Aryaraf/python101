@@ -1,0 +1,12 @@
+{"timestamp": "2025-05-14 11:37:54", "level": "INFO", "cpu": 4.8, "ram": 80.3, "disk": 55.9}
+{"timestamp": "2025-05-14 11:37:57", "level": "INFO", "cpu": 6.5, "ram": 80.8, "disk": 55.9}
+{"timestamp": "2025-05-14 11:38:00", "level": "INFO", "cpu": 6.1, "ram": 81.3, "disk": 55.9}
+{"timestamp": "2025-05-14 11:38:03", "level": "INFO", "cpu": 61.5, "ram": 80.7, "disk": 55.9}
+{"timestamp": "2025-05-14 11:38:06", "level": "INFO", "cpu": 89.8, "ram": 79.7, "disk": 55.9}
+{"timestamp": "2025-05-14 11:38:06", "level": "WARNING", "message": "High CPU usage: 89.8%"}
+{"timestamp": "2025-05-14 11:38:09", "level": "INFO", "cpu": 58.8, "ram": 78.6, "disk": 55.9}
+{"timestamp": "2025-05-14 11:38:12", "level": "INFO", "cpu": 82.8, "ram": 79.7, "disk": 55.9}
+{"timestamp": "2025-05-14 11:38:12", "level": "WARNING", "message": "High CPU usage: 82.8%"}
+{"timestamp": "2025-05-14 11:38:15", "level": "INFO", "cpu": 69.2, "ram": 75.6, "disk": 55.9}
+{"timestamp": "2025-05-14 11:38:18", "level": "INFO", "cpu": 82.7, "ram": 77.8, "disk": 55.9}
+{"timestamp": "2025-05-14 11:38:18", "level": "WARNING", "message": "High CPU usage: 82.7%"}

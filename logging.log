@@ -5,3 +5,15 @@
 [2025-05-09] INFO - CPU usage 5.7%, RAM usage: 78.5%, Disk usage: 46.9%
 [2025-05-09] INFO - CPU usage 8.3%, RAM usage: 78.4%, Disk usage: 46.9%
 [2025-05-09] INFO - CPU usage 4.9%, RAM usage: 78.3%, Disk usage: 46.9%
+[2025-05-14 11:37:54] INFO - CPU usage 4.8%, RAM usage: 80.3%, Disk usage: 55.9%
+[2025-05-14 11:37:57] INFO - CPU usage 6.5%, RAM usage: 80.8%, Disk usage: 55.9%
+[2025-05-14 11:38:00] INFO - CPU usage 6.1%, RAM usage: 81.3%, Disk usage: 55.9%
+[2025-05-14 11:38:03] INFO - CPU usage 61.5%, RAM usage: 80.7%, Disk usage: 55.9%
+[2025-05-14 11:38:06] INFO - CPU usage 89.8%, RAM usage: 79.7%, Disk usage: 55.9%
+[2025-05-14 11:38:06] WARNING - High CPU usage detected: 89.8%
+[2025-05-14 11:38:09] INFO - CPU usage 58.8%, RAM usage: 78.6%, Disk usage: 55.9%
+[2025-05-14 11:38:12] INFO - CPU usage 82.8%, RAM usage: 79.7%, Disk usage: 55.9%
+[2025-05-14 11:38:12] WARNING - High CPU usage detected: 82.8%
+[2025-05-14 11:38:15] INFO - CPU usage 69.2%, RAM usage: 75.6%, Disk usage: 55.9%
+[2025-05-14 11:38:18] INFO - CPU usage 82.7%, RAM usage: 77.8%, Disk usage: 55.9%
+[2025-05-14 11:38:18] WARNING - High CPU usage detected: 82.7%

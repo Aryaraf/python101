@@ -1,26 +1,44 @@
 import psutil
 import argparse
+import json
 from datetime import datetime
 
-parser = argparse.ArgumentParser(description="Simple system resources logger")
-parser.add_argument('--interval', type=int, default=3, help='Interval in second between logs')
+parser = argparse.ArgumentParser(description="System logger with alert and JSON output")
+parser.add_argument('--interval', type=int, default=3, help='Interval in seconds between logs')
 args = parser.parse_args()
 
 while True:
-    
     cpu = psutil.cpu_percent(interval=args.interval)
     ram = psutil.virtual_memory().percent
     disk = psutil.disk_usage('/').percent
     time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    
-    total = (f"[{time}] INFO - CPU usage: {cpu}% RAM usage: {ram}% DISK usage: {disk}%")
-    
+
+    log_msg = f"[{time}] INFO - CPU usage {cpu}%, RAM usage: {ram}%, Disk usage: {disk}%"
+    log_data = {
+        "timestamp": time,
+        "level": "INFO",
+        "cpu": cpu,
+        "ram": ram,
+        "disk": disk
+    }
+
+    print(log_msg)
+    with open("logging.log", "a") as f:
+        f.write(log_msg + "\n")
+
+    with open("logging.json", "a") as f_json:
+        f_json.write(json.dumps(log_data) + "\n")
+
     if cpu > 80:
-        total = (f"[{time}] WARNING - CPU usage: {cpu}%")
-        with open ("logger.log", "a") as f:
-            f.write(total + "\n")
-    
-    with open ("logger.log", "a") as f:
-        f.write(total + "\n")
-        
-    print(total)
+        warning_msg = f"[{time}] WARNING - High CPU usage detected: {cpu}%"
+        warning_data = {
+            "timestamp": time,
+            "level": "WARNING",
+            "message": f"High CPU usage: {cpu}%"
+        }
+
+        print(warning_msg)
+        with open("logging.log", "a") as f:
+            f.write(warning_msg + "\n")
+        with open("logging.json", "a") as f_json:
+            f_json.write(json.dumps(warning_data) + "\n")
